@@ -5,6 +5,7 @@ Rewrite the command `who` to print info of logged users
 
 ```shell
 ./who1
+./who2
 ```
 
 
@@ -60,10 +61,13 @@ Rewrite the command `who` to print info of logged users
   man 3 ctime
   ```
 
-  ​
+- use `cache` to read 16 `utmp` one time from disk
+
+  `utmplib.c` complete the job
+
+  run `who2` 
 
 # Reference
 
 - [linux man study](https://blog.csdn.net/losophy/article/details/7961958)
 
-  
